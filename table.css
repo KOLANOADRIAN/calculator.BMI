@@ -1,0 +1,14 @@
+.table {
+    color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-collapse: collapse;
+}
+
+.table__header {
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+}

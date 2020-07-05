@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight with your body</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./container.css">
+    <link rel="stylesheet" type="text/css" href="./form.css">
+    <link rel="stylesheet" type="text/css" href="./table.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="./script.js"></script>
+</head>
+<!-- STRONA WYKONANA W RAMACH ĆWIACZEŃ Z JS -->
+<body>
+    <div class="container">
+        <h2>Fight with your body</h2>
+        <form class="form">
+
+            <legend class="form__legend">KALKULATOR BMI</legend>
+            <p class="form__text1">POLA WYMAGANE OZNACZONE SĄ GWIAZDKĄ *.</p>
+            <p>
+                <label>
+                    <span class="form__labelText">Wzrost*:</span>
+                    <input class="form__field form__fieldJshight" value="" required type="number" step="any"
+                        name="hight" minlength="2" maxlength="3">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Waga*:</span>
+                    <input class="form__field form__fieldJsweight" required type="number" step="any" name="weight"
+                        minlength="2" maxlength="3">
+                </label>
+            </p>
+            <p>
+                <button class="form__button">Przelicz</button>
+            </p>
+            <p>
+                <button type="reset" class="reset form__button">Wyczyść</button>
+            </p>
+            <p>TWOJE BMI:<span class="form__text"></span></p>
+            <p><span class="form__textBMI"></span></p>
+
+        </form>
+        <table class="table">
+            <tr>
+                <th class="table__header">WYNIK</th>
+                <th class="table__header">OPIS</th>
+            </tr>
+            <tr>
+                <th class="table__header">Mniej Niż 17</th>
+                <th class="table__header">Wychudzenie</th>
+            </tr>
+            <tr>
+                <th class="table__header">17-18.49</th>
+                <th class="table__header">Niedowaga</th>
+            </tr>
+            <tr>
+                <th class="table__header">18.5-24.99</th>
+                <th class="table__header">Wartość Prawidłowa</th>
+            </tr>
+            <tr>
+                <th class="table__header">25-29.99</th>
+                <th class="table__header">Nadwaga</th>
+            </tr>
+            <tr>
+                <th class="table__header">Powyżej 30</th>
+                <th class="table__header">Otyłóść</th>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+<footer class="footer">&copy; Adrian Kolano 2020. </footer>
+
+</html>
