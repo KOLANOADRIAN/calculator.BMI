@@ -1,4 +1,4 @@
 # calculator.BMI
 BMI
-## https://kolanoadrian.github.io/calculator.BMI/
-### http://www.info4you.com.pl/
+ 
+<a href="https://kolanoadrian.github.io/calculator.BMI"> Calculator BMI in Git Hub  Pages</a>
